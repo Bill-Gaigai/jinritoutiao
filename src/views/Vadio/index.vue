@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- 引入一级路由 -->
-    <router-view></router-view>
+    <p>我是vadio组件</p>
   </div>
 </template>
 
@@ -9,5 +8,4 @@
 export default {};
 </script>
 
-<style scoped>
-</style>
+<style  lang="stylus" rel="stylesheet/stylus" scoped></style>

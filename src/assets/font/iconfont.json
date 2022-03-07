@@ -1,0 +1,65 @@
+{
+  "id": "3223755",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "27994460",
+      "name": "Home",
+      "font_class": "Home",
+      "unicode": "e762",
+      "unicode_decimal": 59234
+    },
+    {
+      "icon_id": "27994467",
+      "name": "Grid",
+      "font_class": "Grid",
+      "unicode": "e763",
+      "unicode_decimal": 59235
+    },
+    {
+      "icon_id": "27994496",
+      "name": "Headphones",
+      "font_class": "Headphones",
+      "unicode": "e764",
+      "unicode_decimal": 59236
+    },
+    {
+      "icon_id": "27994531",
+      "name": "User",
+      "font_class": "User",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "27994549",
+      "name": "Video",
+      "font_class": "Video",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "27994561",
+      "name": "Volume",
+      "font_class": "Volume",
+      "unicode": "e767",
+      "unicode_decimal": 59239
+    },
+    {
+      "icon_id": "27994579",
+      "name": "Play",
+      "font_class": "Play",
+      "unicode": "e768",
+      "unicode_decimal": 59240
+    },
+    {
+      "icon_id": "27994591",
+      "name": "SkipBack",
+      "font_class": "SkipBack",
+      "unicode": "e769",
+      "unicode_decimal": 59241
+    }
+  ]
+}
