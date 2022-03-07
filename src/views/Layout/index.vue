@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar></Navbar>
+    <Navbar title="今日头条" background="#ff373c" color="#fff"></Navbar>
     <router-view></router-view>
     <Tabbar></Tabbar>
   </div>

@@ -1,16 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-// 引入一级路由
-import Layout from '../views/Layout/index.vue'
-import Mine from '../views/Mine/index.vue'
-
-// 引入二级路由
-import Home from '../views/Home/index.vue'
-import Play from '../views/Play/index.vue'
-import Vadio from '../views/Vadio/index.vue'
-
-
 Vue.use(VueRouter)
 
 const routes = [{
@@ -19,25 +9,38 @@ const routes = [{
     },
     {
         path: '/layout',
-        component: Layout,
+        component: () =>
+            import ('@/views/Layout'),
+
         redirect: '/layout/home',
         children: [{
                 path: 'home',
-                component: Home
+                component: () =>
+                    import ('@/views/Home'),
             },
             {
                 path: 'play',
-                component: Play
+                component: () =>
+                    import ('@/views/Play'),
             },
             {
                 path: 'Vadio',
-                component: Vadio
+                component: () =>
+                    import ('@/views/Vadio'),
             },
         ]
     },
     {
         path: '/mine',
-        component: Mine
+        component: () =>
+            import ('@/views/Mine'),
+
+    },
+    {
+        path: '/login',
+        component: () =>
+            import ('@/views/Login'),
+
     },
 ]
 

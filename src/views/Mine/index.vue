@@ -1,7 +1,9 @@
 <template>
   <div>
     <van-nav-bar left-arrow title="今日头条" class="vanNanbar" fixed />
-    <p>我是我的组件</p>
+    <div class="main">
+      <p>我是我的组件</p>
+    </div>
   </div>
 </template>
 
@@ -27,5 +29,8 @@ export default {
   color: #fff;
   text-align: center;
   line-height: 46px;
+}
+.main {
+  margin-top: 46px;
 }
 </style>

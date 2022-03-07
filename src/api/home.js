@@ -1,9 +1,5 @@
 import request from '../utils/request'
 
-export const authorizations = params => request({
-    url: '/v1_0/authorizations',
-    params
-})
 
 // 首页——获取频道数据
 
