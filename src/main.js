@@ -10,9 +10,10 @@ import './assets/css/index.less' //加载字体样式
 // rem适配，动态设置rem基准值
 import "amfe-flexible"
 
-import { Tabbar, TabbarItem, NavBar, Search, Tab, Tabs, Toast, Cell, CellGroup, Form, Field, Button } from 'vant'
+import { Tabbar, TabbarItem, NavBar, Search, Tab, Tabs, Toast, Cell, CellGroup, Form, Field, Button, CountDown } from 'vant'
+// import { Toast } from 'vant'
 
-Vue.use(Tabbar).use(TabbarItem).use(NavBar).use(Search).use(Tab).use(Tabs).use(Toast).use(Cell).use(CellGroup).use(Form).use(Field).use(Button);
+Vue.use(Tabbar).use(TabbarItem).use(NavBar).use(Search).use(Tab).use(Tabs).use(Toast).use(Cell).use(CellGroup).use(Form).use(Field).use(Button).use(Toast).use(CountDown);
 
 Vue.config.productionTip = false
 
